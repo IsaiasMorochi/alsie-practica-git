@@ -10,3 +10,5 @@ Commit master
 8. Rivirtiendo cambios: git reset deshace los cambios moviendo la referencia de una rama hacia atrás en el tiempo a un commit anterior. 
   En este sentido puedes imaginarlo como "reescribir la historia". 
   git reset va a mover la rama hacia atrás, como si el commit nunca se hubiera hecho.
+9. git cherry-pick <Commit1> <Commit2> <...>
+  Es una manera bastante directa de decir que quieres copiar una serie de commits sobre tu ubicación actual (HEAD). Personalmente amo cherry-pick porque hay muy poca magia involucrada y es bastante simple de entender.
