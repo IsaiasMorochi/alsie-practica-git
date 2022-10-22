@@ -5,3 +5,4 @@
 3. Tercer commit bugFix
 Commit master
 5. Quinto commit
+6. Moverse entre commits: git checkout HEAD^
